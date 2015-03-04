@@ -3,5 +3,5 @@ IbwJobeetBundle_job:
     prefix:   /job
 
 ibw_jobeet_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: IbwJobeetBundle:Default:index }
+    pattern:  /
+    defaults: { _controller: IbwJobeetBundle:Job:index }
