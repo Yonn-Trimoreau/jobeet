@@ -10,6 +10,10 @@ Ibw\JobeetBundle\Entity\Category:
             type: string
             length: 255
             unique: true
+        slug:
+            type: string
+            length: 255
+            unique: true
     oneToMany:
         jobs:
             targetEntity: Job
@@ -19,3 +23,6 @@ Ibw\JobeetBundle\Entity\Category:
             targetEntity: Affiliate
             mappedBy: categories
     repositoryClass: Ibw\JobeetBundle\Repository\CategoryRepository
+    lifecycleCallbacks:
+        prePersist: [ setSlugValue ]
+        preUpdate: [ setSlugValue ]
