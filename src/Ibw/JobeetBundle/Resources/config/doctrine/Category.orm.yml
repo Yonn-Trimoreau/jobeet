@@ -18,3 +18,4 @@ Ibw\JobeetBundle\Entity\Category:
         affiliates:
             targetEntity: Affiliate
             mappedBy: categories
+    repositoryClass: Ibw\JobeetBundle\Repository\CategoryRepository
