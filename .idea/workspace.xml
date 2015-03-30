@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66f579a0-333b-4871-8a94-4b9edc97498f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/Job/admin.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/config/validation.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Repository/CategoryRepository.php" afterPath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Repository/CategoryRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/config/doctrine/Job.orm.yml" afterPath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/config/doctrine/Job.orm.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Entity/Job.php" afterPath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Entity/Job.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Controller/JobController.php" afterPath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Controller/JobController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Repository/JobRepository.php" afterPath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Repository/JobRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Form/JobType.php" afterPath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Form/JobType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/Job/edit.html.twig" afterPath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/Job/edit.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/config/routing/job.yml" afterPath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/config/routing/job.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/Job/new.html.twig" afterPath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/Job/new.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/Job/show.html.twig" afterPath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/Job/show.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Tests/Controller/CategoryControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Tests/Controller/JobControllerTest.php" afterPath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Tests/Controller/JobControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/Job/index.html.twig" afterPath="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/Job/index.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="test-symfony.iws" />
@@ -50,41 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/Job/show.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.038462" vertical-offset="348" max-vertical-offset="901">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="admin.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/Job/admin.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="714">
               <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/Job/edit.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="2040">
-              <caret line="23" column="113" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -100,11 +60,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Job.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Job.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ibw/JobeetBundle/Entity/Job.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65461123" vertical-offset="9549" max-vertical-offset="10591">
+            <state vertical-scroll-proportion="-13.923077" vertical-offset="9549" max-vertical-offset="10591">
               <caret line="584" column="26" selection-start-line="584" selection-start-column="26" selection-end-line="584" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryControllerTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Ibw/JobeetBundle/Tests/Controller/CategoryControllerTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.846293" vertical-offset="518" max-vertical-offset="2363">
+              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+              <folding>
+                <element signature="e#6#86#0#PHP" expanded="true" />
+                <element signature="e#134#186#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JobControllerTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Ibw/JobeetBundle/Tests/Controller/JobControllerTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-89.57692" vertical-offset="0" max-vertical-offset="2431">
+              <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+              <folding>
+                <element signature="e#53#105#0#PHP" expanded="true" />
+                <marker date="1427709640852" expanded="true" signature="2825:2956" placeholder="SELECT j fro..IbwJobeetBundle..." />
+                <marker date="1427709640852" expanded="true" signature="3384:3446" placeholder="SELECT j fro..IbwJobeetBundle..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/Job/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.923077" vertical-offset="16" max-vertical-offset="595">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -157,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/config/doctrine/Category.orm.yml" />
         <option value="$PROJECT_DIR$/src/Ibw/JobeetBundle/Entity/Category.php" />
         <option value="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/Job/file.html.twig" />
-        <option value="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/Job/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/Ibw/JobeetBundle/Controller/CategoryController.php" />
@@ -184,6 +180,9 @@
         <option value="$PROJECT_DIR$/src/Ibw/JobeetBundle/Repository/CategoryRepository.php" />
         <option value="$PROJECT_DIR$/src/Ibw/JobeetBundle/Form/JobType.php" />
         <option value="$PROJECT_DIR$/src/Ibw/JobeetBundle/Entity/Job.php" />
+        <option value="$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/Job/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Ibw/JobeetBundle/Tests/Controller/JobControllerTest.php" />
+        <option value="$PROJECT_DIR$/src/Ibw/JobeetBundle/Tests/Controller/CategoryControllerTest.php" />
       </list>
     </option>
   </component>
@@ -383,6 +382,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ibw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JobeetBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -960,13 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/Job/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.115385" vertical-offset="26" max-vertical-offset="595">
-          <caret line="17" column="99" selection-start-line="17" selection-start-column="99" selection-end-line="17" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1411">
@@ -1181,9 +1203,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ibw/JobeetBundle/Entity/Job.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65461123" vertical-offset="9549" max-vertical-offset="10591">
+        <state vertical-scroll-proportion="-13.923077" vertical-offset="9549" max-vertical-offset="10591">
           <caret line="584" column="26" selection-start-line="584" selection-start-column="26" selection-end-line="584" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ibw/JobeetBundle/Resources/views/Job/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.923077" vertical-offset="16" max-vertical-offset="595">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ibw/JobeetBundle/Tests/Controller/JobControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-89.57692" vertical-offset="0" max-vertical-offset="2431">
+          <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+          <folding>
+            <element signature="e#53#105#0#PHP" expanded="true" />
+            <marker date="1427709640852" expanded="true" signature="2825:2956" placeholder="SELECT j fro..IbwJobeetBundle..." />
+            <marker date="1427709640852" expanded="true" signature="3384:3446" placeholder="SELECT j fro..IbwJobeetBundle..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ibw/JobeetBundle/Tests/Controller/CategoryControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.846293" vertical-offset="518" max-vertical-offset="2363">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+            <element signature="e#134#186#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
