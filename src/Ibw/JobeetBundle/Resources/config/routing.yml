@@ -9,3 +9,9 @@ IbwJobeetBundle_category:
 ibw_jobeet_homepage:
     pattern:  /
     defaults: { _controller: IbwJobeetBundle:Job:index }
+
+login:
+    pattern:   /login
+    defaults:  { _controller: IbwJobeetBundle:Default:login }
+login_check:
+    pattern:   /login_check
