@@ -13,5 +13,10 @@ ibw_jobeet_homepage:
 login:
     pattern:   /login
     defaults:  { _controller: IbwJobeetBundle:Default:login }
+
 login_check:
     pattern:   /login_check
+
+IbwJobeetBundle_ibw_affiliate:
+    resource: "@IbwJobeetBundle/Resources/config/routing/affiliate.yml"
+    prefix:   /affiliate
